@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""></form>
+    <form action="FormsBasics.html"method="">
+        <fieldset>
+            <legend>Information</legend>
+            <div>
+                <div>
+                    <label>Name</label>
+                    <div>
+                        <label for="">Hello</label>
+                    </div>
+                    <div>
+                        <textarea cols="15"rows="5"></textarea>
+                    </div>
+                    <select>
+                        <option value="select" selected>Select</option>
+                        <option value="HTML" >Hypertext Markup Lang</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JS">JS</option>
+                    </select>
+                    <div>
+                        <label for="text">Text Box</label>
+                        <input type="text" name="text" id="text" placeholder="FirstName_LastName"
+                         required pattern="[a-z]*">
+                
+                    </div>
+                    <label> skills</label>
+                    <div>
+                        <label for="html">HTML</label>
+                        <input type="checkbox" id="html" name="html"/>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="css" name="css" checked/>
+                        <label for="css">CSS</label>
+                    </div>
+                    <div>
+                        <label> color</label>
+                        <div>
+                            <input type="color" id="head" name="head" value="#1cbbaf" />
+                            <label for="head"> Black</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="date"> Date</label>
+                        <input type="date" id="date" value="2024-01-14" min="2024-01-01" max="2024-02-28"/>
+
+                    </div>
+                    <div>
+                        <label for="datetime-local">Choose date and time</label>
+                        <input type="datetime-local" id="datetime-local" name="datetime-local" min="2024-01-01T00:00"
+                           max="2024-01-31T00:00" />
+                    </div>
+                    <div>
+                        <label for="email"> Email</label>
+                        <input type="email" id="email" required />
+                    </div>
+                    <div>
+                        <label for="file"><Fieldset></Fieldset></label>
+                        <input type="file" id="file" name="file" accept=".png, .jpeg"/>
+                    </div>
+                    <div>
+                        <label>Hidden</label>
+                        <input type="hidden" id="hidden" name="hidden" value="1234">
+                    </div>
+                    <div>
+                        <label for="month">Month</label>
+                        <input type="month" id="month" name="month" min="2024-02" max="2024-05" value="2024-02"/>
+                    </div>
+                    <div>
+                        <label for="number1">Number</label>
+                        <input type="number" id="number" name="number" min="10" max="100" />
+                    </div>
+                    <div>
+                        <label for="pass">Password</label>
+                        <input type="password" id="pass" name="pass" minlength="8" required />
+                    </div>
+                    <div>
+                        <label for="radio">Radio</label>
+                        <div>
+                            <input type="radio" id="male" name="gender" value="male" />
+                            <label for="male">Male</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="female" name="gender" value="female" checked />
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="range">Range</label>
+                            <input type="range" id="range" name="range" min="1" max="200" value="90 " step="20"
+                                oninput="this.nextElementSibling.value = this.value" />
+                                <output>90</output>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="search"><Search></Search></label>
+                        <input type="search" id="search" name="search" />
+                    </div>
+                    <div>
+                        <label for="tel">Telephone</label>
+                        <input type="tel" id="tel" name="tel" required />
+
+                    </div>
+                    <div>
+                        <label for="time">Time</label>
+                        <input type="time" id="time" name="time" min="09:00" max="18:00" required />
+
+                    </div>
+                    <div>
+                        <label for="url">URL</label>
+                        <input type="url" id="url" name="url" size="30" required />
+                    </div>
+                    <div>
+                        <label for="Week">Week</label>
+                        <input type="week" id="week" name="week" min="2023-W01" max="2024-W15" required />
+                    </div>
+                    <div>
+                        <input type="submit" id="submit" value="submit" />
+
+                    </div>
+                    <div>
+                        <input type="reset" id="reset" value="reset" />
+                    </div>
+                    <div>
+                        <input type="button" id="button" value="button" />
+                    </div>
+
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Occupation</legend>
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
